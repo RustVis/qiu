@@ -1,8 +1,15 @@
 [package]
 name = "qiu"
 version = "0.1.0"
+authors = ["Xu Shaohua <shaohua@biofan.org>"]
+description = "Data visualization library for rust"
+homepage = "https://github.com/RustVis/qiu"
+repository = "https://github.com/RustVis/qiu"
+documentation = "https://docs.rs/qiu"
+readme = "README.md"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "Apache-2.0"
+publish = true
 
 [dependencies]
+jiao = { version = "0.1.0", path = "../jiao" }

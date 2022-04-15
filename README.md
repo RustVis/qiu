@@ -1,4 +1,7 @@
 
-# 虬
-虬龙, 引自山海经, 是一种小龙.
+# About
+Qiu is a data visualization library for rust.
 
+
+## License
+This library is released under [Apache-2.0](LICENSE) license.
