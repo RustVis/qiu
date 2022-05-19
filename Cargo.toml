@@ -1,15 +1,30 @@
 [package]
 name = "qiu"
 version = "0.1.0"
-authors = ["Xu Shaohua <shaohua@biofan.org>"]
+authors = [
+  "Xu Shaohua <shaohua@biofan.org>"
+]
 description = "Data visualization library for rust"
 homepage = "https://github.com/RustVis/qiu"
 repository = "https://github.com/RustVis/qiu"
 documentation = "https://docs.rs/qiu"
 readme = "README.md"
+categories = [
+  "computer-vision",
+  "graphics",
+  "rendering",
+  "visualization",
+]
+keywords = [
+  "2d",
+  "canvas",
+  "painting",
+  "rendering",
+  "svg",
+]
 edition = "2021"
 license = "Apache-2.0"
 publish = true
 
 [dependencies]
-jiao = "0.1.1"
+jiao = "0.1.2"
